@@ -18,3 +18,5 @@ while user_input != 'end':
         else:
             print(f"{user_input} not a leap year!")
         user_input = input("Enter a year (or 'end' to quit): ")
+    else:
+        user_input = 'end'
